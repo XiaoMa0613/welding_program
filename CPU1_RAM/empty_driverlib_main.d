@@ -1,7 +1,7 @@
 # FIXED
 
 empty_driverlib_main.obj: ../empty_driverlib_main.c
-empty_driverlib_main.obj: E:/CCS12.7/workbase/twin_welding_driverlib/device/driverlib.h
+empty_driverlib_main.obj: E:/github/my_project/welding_program/device/driverlib.h
 empty_driverlib_main.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_memmap.h
 empty_driverlib_main.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/adc.h
 empty_driverlib_main.obj: E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdbool.h
@@ -96,16 +96,16 @@ empty_driverlib_main.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driver
 empty_driverlib_main.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_spi.h
 empty_driverlib_main.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/version.h
 empty_driverlib_main.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/driver_inclusive_terminology_mapping.h
-empty_driverlib_main.obj: E:/CCS12.7/workbase/twin_welding_driverlib/device/device.h
+empty_driverlib_main.obj: E:/github/my_project/welding_program/device/device.h
 empty_driverlib_main.obj: syscfg/board.h
 empty_driverlib_main.obj: syscfg/c2000ware_libraries.h
-empty_driverlib_main.obj: E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_epwm.h
-empty_driverlib_main.obj: E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_gpio.h
-empty_driverlib_main.obj: E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_adc.h
+empty_driverlib_main.obj: E:/github/my_project/welding_program/BSP/includes/m_epwm.h
+empty_driverlib_main.obj: E:/github/my_project/welding_program/BSP/includes/m_gpio.h
+empty_driverlib_main.obj: E:/github/my_project/welding_program/BSP/includes/m_adc.h
 
 ../empty_driverlib_main.c:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/device/driverlib.h:
+E:/github/my_project/welding_program/device/driverlib.h:
 
 D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_memmap.h:
 
@@ -295,15 +295,15 @@ D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/version.h:
 
 D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/driver_inclusive_terminology_mapping.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/device/device.h:
+E:/github/my_project/welding_program/device/device.h:
 
 syscfg/board.h:
 
 syscfg/c2000ware_libraries.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_epwm.h:
+E:/github/my_project/welding_program/BSP/includes/m_epwm.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_gpio.h:
+E:/github/my_project/welding_program/BSP/includes/m_gpio.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_adc.h:
+E:/github/my_project/welding_program/BSP/includes/m_adc.h:
 

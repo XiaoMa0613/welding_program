@@ -1,7 +1,7 @@
 # FIXED
 
 BSP/sources/m_gpio.obj: ../BSP/sources/m_gpio.c
-BSP/sources/m_gpio.obj: E:/CCS12.7/workbase/twin_welding_driverlib/device/driverlib.h
+BSP/sources/m_gpio.obj: E:/github/my_project/welding_program/device/driverlib.h
 BSP/sources/m_gpio.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_memmap.h
 BSP/sources/m_gpio.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/adc.h
 BSP/sources/m_gpio.obj: E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdbool.h
@@ -96,14 +96,14 @@ BSP/sources/m_gpio.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverli
 BSP/sources/m_gpio.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_spi.h
 BSP/sources/m_gpio.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/version.h
 BSP/sources/m_gpio.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/driver_inclusive_terminology_mapping.h
-BSP/sources/m_gpio.obj: E:/CCS12.7/workbase/twin_welding_driverlib/device/device.h
+BSP/sources/m_gpio.obj: E:/github/my_project/welding_program/device/device.h
 BSP/sources/m_gpio.obj: syscfg/c2000ware_libraries.h
 BSP/sources/m_gpio.obj: syscfg/board.h
-BSP/sources/m_gpio.obj: E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_gpio.h
+BSP/sources/m_gpio.obj: E:/github/my_project/welding_program/BSP/includes/m_gpio.h
 
 ../BSP/sources/m_gpio.c:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/device/driverlib.h:
+E:/github/my_project/welding_program/device/driverlib.h:
 
 D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_memmap.h:
 
@@ -293,11 +293,11 @@ D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/version.h:
 
 D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/driver_inclusive_terminology_mapping.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/device/device.h:
+E:/github/my_project/welding_program/device/device.h:
 
 syscfg/c2000ware_libraries.h:
 
 syscfg/board.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_gpio.h:
+E:/github/my_project/welding_program/BSP/includes/m_gpio.h:
 

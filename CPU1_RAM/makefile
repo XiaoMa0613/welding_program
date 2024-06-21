@@ -147,7 +147,7 @@ all: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 twin_welding_driverlib.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: C2000 Linker'
-	"E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --define=DEBUG --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"twin_welding_driverlib.map" --heap_size=0x200 --stack_size=0x3F8 --warn_sections -i"E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/C2000/C2000Ware_5_02_00_00" -i"E:/CCS12.7/workbase/twin_welding_driverlib/CPU1_RAM/syscfg" -i"E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="twin_welding_driverlib_linkInfo.xml" --entry_point=code_start --rom_model -o "twin_welding_driverlib.out" $(ORDERED_OBJS)
+	"E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --define=DEBUG --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"twin_welding_driverlib.map" --heap_size=0x200 --stack_size=0x3F8 --warn_sections -i"E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/C2000/C2000Ware_5_02_00_00" -i"E:/github/my_project/welding_program/CPU1_RAM/syscfg" -i"E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="twin_welding_driverlib_linkInfo.xml" --entry_point=code_start --rom_model -o "twin_welding_driverlib.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 	@$(MAKE) --no-print-directory post-build
@@ -164,9 +164,9 @@ clean:
 
 post-build:
 	-echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
-	-if 0 == 1  E:/CCS12.7/ccs/tools/node/node.exe "D:/C2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "D:/C2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "E:/CCS12.7/workbase/twin_welding_driverlib/CPU1_RAM/syscfg" "E:/CCS12.7/workbase/twin_welding_driverlib/CPU1_RAM/syscfg/clb.dot"
-	-if 0 == 1  mkdir "E:/CCS12.7/workbase/twin_welding_driverlib/CPU1_RAM/diagrams"
-	-if 0 == 1  E:/CCS12.7/ccs/tools/node/node.exe "D:/C2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "D:/C2000/C2000Ware_5_02_00_00" "E:/CCS12.7/workbase/twin_welding_driverlib/CPU1_RAM/diagrams" "E:/CCS12.7/workbase/twin_welding_driverlib/CPU1_RAM/syscfg"
+	-if 0 == 1  E:/CCS12.7/ccs/tools/node/node.exe "D:/C2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "D:/C2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "E:/github/my_project/welding_program/CPU1_RAM/syscfg" "E:/github/my_project/welding_program/CPU1_RAM/syscfg/clb.dot"
+	-if 0 == 1  mkdir "E:/github/my_project/welding_program/CPU1_RAM/diagrams"
+	-if 0 == 1  E:/CCS12.7/ccs/tools/node/node.exe "D:/C2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "D:/C2000/C2000Ware_5_02_00_00" "E:/github/my_project/welding_program/CPU1_RAM/diagrams" "E:/github/my_project/welding_program/CPU1_RAM/syscfg"
 	-@echo ' '
 
 .PHONY: all clean dependents
