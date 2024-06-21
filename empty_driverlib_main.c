@@ -66,7 +66,7 @@ void delay_us(long int c)
     while(a--) {};
 }
 void main(void)
-
+//1234@lzs
 {
 
     //
