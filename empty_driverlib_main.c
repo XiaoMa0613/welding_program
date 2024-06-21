@@ -68,7 +68,7 @@ void delay_us(long int c)
 void main(void)
 {
 
-    //
+    // 12334
     // Initialize device clock and peripherals
     //
     Device_init();
