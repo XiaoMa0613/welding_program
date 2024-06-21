@@ -2,7 +2,7 @@
 
 syscfg/board.obj: syscfg/board.c
 syscfg/board.obj: syscfg/board.h
-syscfg/board.obj: E:/CCS12.7/workbase/twin_welding_driverlib/device/driverlib.h
+syscfg/board.obj: E:/github/my_project/welding_program/device/driverlib.h
 syscfg/board.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_memmap.h
 syscfg/board.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/adc.h
 syscfg/board.obj: E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdbool.h
@@ -97,13 +97,13 @@ syscfg/board.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/spi.
 syscfg/board.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_spi.h
 syscfg/board.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/version.h
 syscfg/board.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/driver_inclusive_terminology_mapping.h
-syscfg/board.obj: E:/CCS12.7/workbase/twin_welding_driverlib/device/device.h
+syscfg/board.obj: E:/github/my_project/welding_program/device/device.h
 
 syscfg/board.c:
 
 syscfg/board.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/device/driverlib.h:
+E:/github/my_project/welding_program/device/driverlib.h:
 
 D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_memmap.h:
 
@@ -293,5 +293,5 @@ D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/version.h:
 
 D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/driver_inclusive_terminology_mapping.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/device/device.h:
+E:/github/my_project/welding_program/device/device.h:
 

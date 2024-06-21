@@ -1,7 +1,7 @@
 # FIXED
 
 BSP/sources/m_adc.obj: ../BSP/sources/m_adc.c
-BSP/sources/m_adc.obj: E:/CCS12.7/workbase/twin_welding_driverlib/device/driverlib.h
+BSP/sources/m_adc.obj: E:/github/my_project/welding_program/device/driverlib.h
 BSP/sources/m_adc.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_memmap.h
 BSP/sources/m_adc.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/adc.h
 BSP/sources/m_adc.obj: E:/CCS12.7/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdbool.h
@@ -96,12 +96,12 @@ BSP/sources/m_adc.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib
 BSP/sources/m_adc.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_spi.h
 BSP/sources/m_adc.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/version.h
 BSP/sources/m_adc.obj: D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/driver_inclusive_terminology_mapping.h
-BSP/sources/m_adc.obj: E:/CCS12.7/workbase/twin_welding_driverlib/device/device.h
-BSP/sources/m_adc.obj: E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_adc.h
+BSP/sources/m_adc.obj: E:/github/my_project/welding_program/device/device.h
+BSP/sources/m_adc.obj: E:/github/my_project/welding_program/BSP/includes/m_adc.h
 
 ../BSP/sources/m_adc.c:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/device/driverlib.h:
+E:/github/my_project/welding_program/device/driverlib.h:
 
 D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/inc/hw_memmap.h:
 
@@ -291,7 +291,7 @@ D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/version.h:
 
 D:/C2000/C2000Ware_5_02_00_00/driverlib/f28004x/driverlib/driver_inclusive_terminology_mapping.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/device/device.h:
+E:/github/my_project/welding_program/device/device.h:
 
-E:/CCS12.7/workbase/twin_welding_driverlib/BSP/includes/m_adc.h:
+E:/github/my_project/welding_program/BSP/includes/m_adc.h:
 
