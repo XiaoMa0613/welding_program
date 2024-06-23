@@ -54,6 +54,7 @@
 #include "m_epwm.h"
 #include "m_gpio.h"
 #include "m_adc.h"
+#include "F28x_Project.h"
 //
 // Main
 //
@@ -114,24 +115,24 @@ void main(void)
         GPIO_writePin(DEVICE_GPIO_PIN_LED2, 1);  //OFF
         delay_us(500000);
 #if 0
-        // 2808是软件触发ADC转换。
+        // 2808是软件触发ADC转换�?
         // Convert, wait for completion, and store results
         ADC_forceSOC(ADCA_BASE, ADC_SOC_NUMBER0);
         ADC_forceSOC(ADCA_BASE, ADC_SOC_NUMBER1);
         ADC_forceSOC(ADCB_BASE, ADC_SOC_NUMBER0);
         ADC_forceSOC(ADCB_BASE, ADC_SOC_NUMBER1);
 #endif
-        // 等待ADC转换完成，并清除中断标志位
+        // 等待ADC转换完成，并清除中断标志�?
         while(ADC_getInterruptStatus(ADCA_BASE, ADC_INT_NUMBER1) == false)
         {
         }
         ADC_clearInterruptStatus(ADCA_BASE, ADC_INT_NUMBER1);
 
-        // 储存结果,测试能正常采样
+        // 储存结果,测试能正常采�?
         adcAResult0 = ADC_readResult(ADCARESULT_BASE, ADC_SOC_NUMBER0);
         adcAResult1 = ADC_readResult(ADCARESULT_BASE, ADC_SOC_NUMBER1);
 
-        // 用于调试的软件暂停。
+        // 用于调试的软件暂停�?
 //        ESTOP0;
     }
 }
