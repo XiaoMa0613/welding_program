@@ -103,7 +103,7 @@ void main(void)
     // C2000Ware Library initialization
     //
     C2000Ware_libraries_init();
-
+    //我又来了@lzs
     //
     // Enable Global Interrupt (INTM) and real time interrupt (DBGM)
     //
